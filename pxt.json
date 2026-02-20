@@ -1,5 +1,6 @@
 {
     "name": "Random Dice_Juean_X1/31",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
