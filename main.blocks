@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="zJsu/oF?TjdM$.3pxYP$">list</variable></variables><block type="device_gesture_event" id="KJZErwqsQ(SICqDc8*uA" x="250" y="-305"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="-eHI5V,%(|;4UzFn=%1@"><mutation name="RollDice" functionid="FWds+[rTv*{YQ0z+JD*P"></mutation></block></statement></block><block type="pxt-on-start" id="8$[dqz_U3GizO=o+8A9Z" x="-23" y="-289"><statement name="HANDLER"><block type="function_call" id="Aft;;@_X37Rk.3h=9!,f"><mutation name="SetDicePattern" functionid="qVr[]lG02i;v-WVB5P_6"></mutation><next><block type="function_call" id="^3dt#L-%w.roWzZ0yq1F"><mutation name="RollDice" functionid="FWds+[rTv*{YQ0z+JD*P"></mutation></block></next></block></statement></block><block type="function_definition" id="UeEBn+um%_G:cF+/0hY!" x="-524" y="-205"><mutation name="SetDicePattern" functionid="qVr[]lG02i;v-WVB5P_6"></mutation><field name="function_name">SetDicePattern</field><statement name="STACK"><block type="variables_set" id="?Ve/P}85+zP1Gd4,dy`,"><field name="VAR" id="zJsu/oF?TjdM$.3pxYP$">list</field><value name="VALUE"><block type="lists_create_with" id="_$t6;Z-:K~quJ:36|%;^" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><block type="device_build_image" id="c^Oes#uuD_Y*{H,[#@){"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="i8ZxDm[D}ic$eh)7_%0:"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="r7e@ahM2A+X}PMMp~HHN"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="#?Y5NcBKyLBKMJcwpe3A"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="N5U{vPOL|`{{ixSpwbFQ"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id="%7VX*}X4iBA_L3lmj]T?"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></value></block></value></block></statement></block><block type="function_definition" id=";Y6Z*;KctYtiw4~Z|z`|" x="0" y="0"><mutation name="RollDice" functionid="FWds+[rTv*{YQ0z+JD*P"></mutation><field name="function_name">RollDice</field><statement name="STACK"><block type="device_show_image_offset" id="H$:4)SH[J,pkI97(6J0$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="xtrPj|Cg#Ni7XsXB_~p#"><value name="LIST"><block type="variables_get" id="^%A:$;3k#2rr3K]|K2PA"><field name="VAR" id="zJsu/oF?TjdM$.3pxYP$">list</field></block></value><value name="INDEX"><shadow type="math_number" id="bXGk5hE:j|e;9W$3Y}!h"><field name="NUM">0</field></shadow><block type="device_random" id="5eAseVXn~{yxYEx1qPpF"><value name="min"><shadow type="math_number" id="V[N5B#hHo{Y]$tuQ:/L)"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="j75{/.gzg#X^juBY4Obn"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="p%Bj9/b(kqheAh{6vVdO"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="z-t+:}8]H/+Y`uJ^Vnx%"><field name="NUM">400</field></shadow></value></block></statement></block></xml>
